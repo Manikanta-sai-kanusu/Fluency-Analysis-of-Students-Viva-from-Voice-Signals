@@ -60,7 +60,7 @@ The proposed system follows an end-to-end speech analysis and machine learning p
 
 <div align="center">
 
-<img src="assets/fig1_flow_diagram.png" width="850" alt="Overall flow diagram"/>
+<img src="assets/fig1_flow_diagram.png" width="650" alt="Overall flow diagram"/>
 
 <br>
 
