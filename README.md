@@ -306,7 +306,7 @@ Random Forest achieved **94.2% accuracy**, **94.2% precision**, **94.2% recall**
 
 <div align="center">
 
-<img src="assets/fig2_model_comparison.png" width="850" alt="Comparison between different models on training and testing data"/>
+<img src="assets/fig2_model_comparison.png" width="450" alt="Comparison between different models on training and testing data"/>
 
 <br>
 
@@ -324,7 +324,7 @@ Random Forest provides the strongest reported test performance among the evaluat
 
 <div align="center">
 
-<img src="assets/fig3_confusion_matrix.png" width="650" alt="Random Forest confusion matrix on test data"/>
+<img src="assets/fig3_confusion_matrix.png" width="450" alt="Random Forest confusion matrix on test data"/>
 
 <br>
 
@@ -368,7 +368,7 @@ Two explanation techniques are used:
 
 <div align="center">
 
-<img src="assets/fig5_shap_feature_importance.png" width="850" alt="SHAP based feature importance"/>
+<img src="assets/fig5_shap_feature_importance.png" width="450" alt="SHAP based feature importance"/>
 
 <br>
 
@@ -386,7 +386,7 @@ The SHAP analysis provides a global view of feature importance and helps identif
 
 <div align="center">
 
-<img src="assets/fig4_lime_feature_influence.png" width="750" alt="LIME based feature influence on fluency classification"/>
+<img src="assets/fig4_lime_feature_influence.png" width="450" alt="LIME based feature influence on fluency classification"/>
 
 <br>
 
@@ -406,7 +406,7 @@ This provides a local explanation of why a particular speech sample receives its
 
 <div align="center">
 
-<img src="assets/fig6_correlation_heatmap.png" width="900" alt="Correlation heatmaps among MFCC LPC and DCT features"/>
+<img src="assets/fig6_correlation_heatmap.png" width="450" alt="Correlation heatmaps among MFCC LPC and DCT features"/>
 
 <br>
 
@@ -463,36 +463,7 @@ Speech exhibiting lower fluency characteristics.
 
 ---
 
-# 📁 Repository Structure
 
-```text
-Fluency-Analysis-of-Students-Viva/
-│
-├── assets/
-│   ├── fig1_flow_diagram.png
-│   ├── fig2_model_comparison.png
-│   ├── fig3_confusion_matrix.png
-│   ├── fig4_lime_feature_influence.png
-│   ├── fig5_shap_feature_importance.png
-│   └── fig6_correlation_heatmap.png
-│
-├── data/
-│   └── processed_features/
-│
-├── notebooks/
-│   └── fluency_analysis.ipynb
-│
-├── src/
-│   ├── feature_extraction.py
-│   ├── preprocessing.py
-│   ├── model_training.py
-│   └── explainability.py
-│
-├── requirements.txt
-└── README.md
-```
-
----
 
 # 🚀 Installation
 
